@@ -21,9 +21,9 @@ body {
     right: 4vw;
     background-color: rgb(211, 211, 211);
     border-radius: 50%;
-    height: 10vh;
-    width: 10vh;
-    font-size: 7vh;
+    height: 100px;
+    width: 100px;
+    font-size: 70px;
 }
 
 .stickyWhatsapp a{
@@ -140,5 +140,11 @@ body {
 
     .main__container__buttons section h2 {
         font-size: 1.35rem;
+    }
+
+    .stickyWhatsapp{
+        height: 70px;
+        width: 70px;
+        font-size: 40px;
     }
 }
