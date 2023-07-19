@@ -146,6 +146,10 @@ body {
         height: 105px;
     }
 
+    .main__container__menu__section section h3 {
+        font-size: 1.15rem;
+    } 
+
     .stickyWhatsapp{
         height: 70px;
         width: 70px;
