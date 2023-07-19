@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(211, 211, 211);
+    font-family: 'Poppins', sans-serif;
+}
+
+.header__nav {
+    background-color: #82583B;
+}
+
+.main__container h1 {
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.main__container__hero {
+    background-image: url(../assets/img/imagen_inicio.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+}
+
+.main__container__hero__reservation {
+    background-image: url(../assets/img/reservation_bg_1024.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    opacity: 0.9;
+}
+
+.main__container__hero__eslogan {
+    padding-top: 12.5vh;
+    color: white;
+}
+
+.main__container__hero__eslogan h1 {
+    font-weight: bold;
+    font-size: 4rem;
+}
+
+.main__container__hero__reservation__bg {
+    background-color: #EDED8E;
+}
+
+
+.main__container__hero__reservation__bg__section a {
+    text-decoration: none;
+    color: #212529;
+}
+
+.main__container__circulo {
+    background-color: #EDED8E;
+    border-radius: 50%;
+}
+
+.main__container__buttons section a img {
+    transition: transform 0.3s;
+}
+
+.main__container__buttons section a img:hover {
+    transform: scale(1.2);
+}
+
+.main__container__buttons section h2 {
+    font-weight: bold;
+    font-size: 1.7rem;
+}
+
+.main__container__description__eslogan {
+    padding-left: 10vw;
+}
+
+.main__container__bg {
+    background-color: rgb(200, 200, 200);
+}
+
+.footer__container {
+    background-color: #82583B;   
+}
+
+.footer__container__items__description p {
+    color: #FDD6BD;
+}
+
+.footer__container__items__socials a {
+    text-decoration: none;
+    color: #FDD6BD;
+    font-size: 1.75rem;
+    margin-left: 1.2rem;
+}
+
+@media (max-width: 1200px) {    
+    .main__container__hero__eslogan h1 {
+        font-weight: bold;
+        font-size: 3rem;
+    }
+
+    .main__container__buttons section a img {
+        height: 150px;
+    }
+
+    .footer__container a img {
+        height: 160px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header__nav__container a img {
+        height: 65px;
+    }
+
+    .main__container__hero__eslogan h1 {
+        font-weight: bold;
+        font-size: 2.5rem;
+    }
+
+    .main__container__buttons section h2 {
+        font-size: 1.35rem;
+    }
+}
