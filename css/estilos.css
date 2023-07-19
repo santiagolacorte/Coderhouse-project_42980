@@ -15,6 +15,21 @@ body {
     background-color: #82583B;
 }
 
+.stickyWhatsapp{
+    position: fixed;
+    bottom: 6vh;
+    right: 4vw;
+    background-color: rgb(211, 211, 211);
+    border-radius: 50%;
+    height: 10vh;
+    width: 10vh;
+    font-size: 7vh;
+}
+
+.stickyWhatsapp a{
+    color: #02C408;
+}
+
 .main__container h1 {
     font-weight: bold;
     font-size: 3rem;
