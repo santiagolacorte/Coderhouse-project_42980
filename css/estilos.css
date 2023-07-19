@@ -139,7 +139,11 @@ body {
     }
 
     .main__container__buttons section h2 {
-        font-size: 1.35rem;
+        font-size: 1.2rem;
+    }
+
+    .main__container__buttons section a img {
+        height: 125px;
     }
 
     .stickyWhatsapp{
