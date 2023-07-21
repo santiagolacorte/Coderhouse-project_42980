@@ -1,0 +1,125 @@
+.main {
+    .main__container {
+        h1 {
+            font-size: $fuente-titulo-lg;
+        }
+
+        .main__container__hero {
+            background-image: url(../assets/img/imagen_inicio.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 90vh;
+        
+            .main__container__hero__eslogan {
+                padding-top: 12.5vh;
+                color: $color-blanco;
+        
+                h1 {
+                    font-size: $fuente-eslogan-lg; 
+                }
+            }
+        }
+
+        .main__container__hero__reservation {
+            background-image: url(../assets/img/reservation_bg_1024.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 70vh;
+            opacity: 0.9;
+        
+            .main__container__hero__reservation__bg {
+                background-color: $color-resalte;
+        
+                .main__container__hero__reservation__bg__section {
+        
+                    a {
+                        color: $color-texto;
+                    }
+                }
+            }
+        }
+
+        .main__container__circulo {
+            background-color: $color-resalte;
+        }
+
+        .main__container__buttons {
+            h2 {
+                font-size: $fuente-grande;
+            }
+        
+            a {
+                img {
+                    transition: transform 0.3s;
+                    &:hover {
+                        transform: scale(1.2);
+                    }
+                }
+            }
+        }
+    
+        .main__container__description {
+            .main__container__description__eslogan {
+                padding-left: 10vw;
+            }
+        }
+    
+        .main__container__bg {
+            background-color: rgb(200, 200, 200);
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+    .main {
+        .main__container {
+            .main__container__buttons {
+                a {
+                    img {
+                        height: 150px;
+                    }
+                }
+            }
+        
+            .main__container__description {
+                .main__container__description__eslogan {
+                    padding-left: 20vw;
+                  }
+            }
+        }
+    }   
+}
+
+@media (max-width: 768px) {
+    .main {
+        .main__container {
+            .main__container__hero {
+                .main__container__hero__eslogan {
+                    h1 {
+                        font-size: $fuente-eslogan-sm;
+                    }
+                }
+            }
+
+            .main__container__buttons {
+                h2 {
+                    font-size: $fuente-normal;
+                }
+        
+                a {
+                    img {
+                        height: 105px;
+                    }
+                }
+            }
+
+            .main__container__menu__section {
+                h3 {
+                    font-size: $fuente-normal;
+                }
+            }
+        }
+    }
+}

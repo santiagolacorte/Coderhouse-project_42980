@@ -1,0 +1,39 @@
+.footer {
+    .footer__container {
+        background-color: $color-secundario; 
+        
+        .footer__container__items__description {
+    
+            p {
+                color: #FDD6BD;
+            }   
+        }
+    
+        .footer__container__items__socials {
+    
+            a {
+                color: #FDD6BD;
+                font-size: $fuente-grande;
+                margin-left: $fuente-normal;
+            }
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+    .footer {
+        .footer__container {
+            a {
+                img {
+                    height: 150px;
+                }
+            }
+    
+            .footer__container__items__description {
+                p {
+                    font-size: $fuente-pequena;
+                }
+            }
+        }
+    }
+}
