@@ -26,7 +26,7 @@ body {
 }
 
 .main__container h1 {
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 
 .main__container__hero {
@@ -41,7 +41,7 @@ body {
   color: white;
 }
 .main__container__hero .main__container__hero__eslogan h1 {
-  font-size: 3rem;
+  font-size: 4rem;
 }
 
 .main__container__hero__reservation {
@@ -63,15 +63,14 @@ body {
   background-color: #EDED8E;
 }
 
+.main__container__buttons h2 {
+  font-size: 1.5rem;
+}
 .main__container__buttons a img {
   transition: transform 0.3s;
 }
 .main__container__buttons a img:hover {
   transform: scale(1.2);
-}
-
-.main__container__buttons h2 {
-  font-size: 1.4rem;
 }
 
 .main__container__description__eslogan {
@@ -90,7 +89,7 @@ body {
 }
 .footer__container .footer__container__items__socials a {
   color: #FDD6BD;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   margin-left: 1rem;
 }
 
@@ -98,16 +97,22 @@ body {
   .main__container__buttons a img {
     height: 150px;
   }
+  .main__container__description__eslogan {
+    padding-left: 20vw;
+  }
   .footer__container a img {
     height: 150px;
+  }
+  .footer__container .footer__container__items__description p {
+    font-size: 0.8rem;
   }
 }
 @media (max-width: 768px) {
   .header__nav__container a img {
     height: 65px;
   }
-  .main__container__hero__eslogan h1 {
-    font-size: 1.4rem;
+  .main__container .main__container__hero__eslogan h1 {
+    font-size: 2.5rem;
   }
   .main__container__buttons h2 {
     font-size: 1rem;
