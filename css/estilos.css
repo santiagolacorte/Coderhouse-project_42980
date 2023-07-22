@@ -37,29 +37,6 @@ body {
     height: 65px;
   }
 }
-.footer .footer__container {
-  background-color: #82583B;
-}
-.footer .footer__container .footer__container__items__description p {
-  color: #FDD6BD;
-}
-.footer .footer__container .footer__container__items__socials a {
-  color: #FDD6BD;
-  font-size: 1.5rem;
-  margin-left: 1rem;
-}
-
-@media (max-width: 1200px) {
-  .footer .footer__container a img {
-    height: 150px;
-  }
-  .footer .footer__container .footer__container__items__description p {
-    font-size: 0.8rem;
-  }
-}
-.main .main__container h1 {
-  font-size: 2.5rem;
-}
 .main .main__container .main__container__hero {
   background-image: url(../assets/img/imagen_inicio.png);
   background-position: center;
@@ -73,20 +50,6 @@ body {
 }
 .main .main__container .main__container__hero .main__container__hero__eslogan h1 {
   font-size: 4rem;
-}
-.main .main__container .main__container__hero__reservation {
-  background-image: url(../assets/img/reservation_bg_1024.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 70vh;
-  opacity: 0.9;
-}
-.main .main__container .main__container__hero__reservation .main__container__hero__reservation__bg {
-  background-color: #EDED8E;
-}
-.main .main__container .main__container__hero__reservation .main__container__hero__reservation__bg .main__container__hero__reservation__bg__section a {
-  color: #212529;
 }
 .main .main__container .main__container__circulo {
   background-color: #EDED8E;
@@ -125,8 +88,49 @@ body {
   .main .main__container .main__container__buttons a img {
     height: 105px;
   }
+}
+.main .main__container h1 {
+  font-size: 2.5rem;
+}
+
+@media (max-width: 768px) {
   .main .main__container .main__container__menu__section h3 {
     font-size: 1rem;
+  }
+}
+.main .main__container .main__container__hero__reservation {
+  background-image: url(../assets/img/reservation_bg_1024.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+  opacity: 0.9;
+}
+.main .main__container .main__container__hero__reservation .main__container__hero__reservation__bg {
+  background-color: #EDED8E;
+}
+.main .main__container .main__container__hero__reservation .main__container__hero__reservation__bg .main__container__hero__reservation__bg__section a {
+  color: #212529;
+}
+
+.footer .footer__container {
+  background-color: #82583B;
+}
+.footer .footer__container .footer__container__items__description p {
+  color: #FDD6BD;
+}
+.footer .footer__container .footer__container__items__socials a {
+  color: #FDD6BD;
+  font-size: 1.5rem;
+  margin-left: 1rem;
+}
+
+@media (max-width: 1200px) {
+  .footer .footer__container a img {
+    height: 150px;
+  }
+  .footer .footer__container .footer__container__items__description p {
+    font-size: 0.8rem;
   }
 }
 
