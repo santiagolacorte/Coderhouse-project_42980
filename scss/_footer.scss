@@ -1,6 +1,6 @@
 .footer {
     .footer__container {
-        background-color: $color-secundario; 
+        background-color: map-get($colores, color-secundario); 
         
         .footer__container__items__description {
     
@@ -13,8 +13,8 @@
     
             a {
                 color: #FDD6BD;
-                font-size: $fuente-grande;
-                margin-left: $fuente-normal;
+                font-size: map-get($fuentes, fuente-grande);
+                margin-left: map-get($fuentes, fuente-normal);
             }
         }
     }
@@ -31,7 +31,7 @@
     
             .footer__container__items__description {
                 p {
-                    font-size: $fuente-pequena;
+                    font-size: map-get($fuentes, fuente-pequena);
                 }
             }
         }

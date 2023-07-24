@@ -1,17 +1,23 @@
-$color-primario: rgb(211, 211, 211);
-$color-secundario: #82583B;
-$color-resalte: #EDED8E;
-$color-texto: #212529;
-$color-blanco: white;
+$colores:(
+    color-primario: rgb(211, 211, 211),
+    color-secundario: #82583B,
+    color-resalte: #EDED8E,
+    color-texto: #212529,
+    color-blanco: white,
+);
 
-$espacio-estandar: 10px;
-$espacio-doble: 20px;
+$espaciados:(
+    espacio-estandar: 10px,
+    espacio-doble: 20px,
+);
 
-$fuente-normal: 1rem;
-$fuente-pequena: 0.8rem;
-$fuente-grande: 1.5rem;
-$fuente-eslogan-lg: 4rem;
-$fuente-eslogan-sm: 2.5rem;
-$fuente-titulo-lg: 2.5rem;
+$fuentes:(
+    fuente-normal: 1rem,
+    fuente-pequena: 0.8rem,
+    fuente-grande: 1.5rem,
+    fuente-eslogan-lg: 4rem,
+    fuente-eslogan-sm: 2.5rem,
+    fuente-titulo-lg: 2.5rem,
+);
 
 $tipografia-general: 'Poppins', sans-serif;

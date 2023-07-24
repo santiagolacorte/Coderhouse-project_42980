@@ -9,21 +9,21 @@
         
             .main__container__hero__eslogan {
                 padding-top: 12.5vh;
-                color: $color-blanco;
+                color: map-get($colores, color-blanco);
         
                 h1 {
-                    font-size: $fuente-eslogan-lg; 
+                    font-size: map-get($fuentes, fuente-eslogan-lg); 
                 }
             }
         }
 
         .main__container__circulo {
-            background-color: $color-resalte;
+            background-color: map-get($colores, color-resalte);
         }
 
         .main__container__buttons {
             h2 {
-                font-size: $fuente-grande;
+                font-size: map-get($fuentes, fuente-grande);
             }
         
             a {
@@ -74,14 +74,14 @@
             .main__container__hero {
                 .main__container__hero__eslogan {
                     h1 {
-                        font-size: $fuente-eslogan-sm;
+                        font-size: map-get($fuentes, fuente-eslogan-sm);
                     }
                 }
             }
 
             .main__container__buttons {
                 h2 {
-                    font-size: $fuente-normal;
+                    font-size: map-get($fuentes, fuente-normal);
                 }
         
                 a {

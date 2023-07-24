@@ -1,7 +1,7 @@
 .main {
     .main__container {
         h1 {
-            font-size: $fuente-titulo-lg;
+            font-size: map-get($fuentes, fuente-titulo-lg);
         }
     }
 }
@@ -11,7 +11,7 @@
         .main__container {
             .main__container__menu__section {
                 h3 {
-                    font-size: $fuente-normal;
+                    font-size: map-get($fuentes, fuente-normal);
                 }
             }
         }

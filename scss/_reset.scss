@@ -5,6 +5,6 @@
 }
 
 body {
-    background-color: $color-primario;
+    background-color: map-get($colores, color-primario);
     font-family: $tipografia-general;
 }
