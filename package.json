@@ -1,0 +1,11 @@
+{
+  "name": "proyecto_42980",
+  "version": "1.0.0",
+  "description": "proyecto para pyme de cafetería de especialidad",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "santiago",
+  "license": "ISC"
+}
