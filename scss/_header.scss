@@ -1,6 +1,6 @@
 .header {
     .header__nav {
-        background-color: $color-secundario;
+        background-color: map-get($colores, color-secundario);
     }
 }
 

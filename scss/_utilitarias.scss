@@ -1,7 +1,7 @@
 .stickyWhatsapp{
     bottom: 6vh;
     right: 4vw;
-    background-color: $color-primario;
+    background-color: map-get($colores, color-primario);
     height: 100px;
     width: 100px;
     font-size: 70px;

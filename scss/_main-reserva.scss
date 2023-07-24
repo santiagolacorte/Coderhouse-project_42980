@@ -9,12 +9,12 @@
             opacity: 0.9;
         
             .main__container__hero__reservation__bg {
-                background-color: $color-resalte;
+                background-color: map-get($colores, color-resalte);
         
                 .main__container__hero__reservation__bg__section {
         
                     a {
-                        color: $color-texto;
+                        color: map-get($colores, color-texto);
                     }
                 }
             }
