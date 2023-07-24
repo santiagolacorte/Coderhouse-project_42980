@@ -2,10 +2,7 @@
     .main__container {
         .main__container__hero__reservation {
             background-image: url(../assets/img/reservation_bg_1024.png);
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-            height: 70vh;
+            @include center-repeat-size-height(center, no-repeat, cover, 70vh);
             opacity: 0.9;
         
             .main__container__hero__reservation__bg {
