@@ -1,21 +1,17 @@
 @import 'mixins.scss';
 
 .main {
-    .main__container {
-        .main__container__hero {
-            background-image: url(../assets/img/imagen_inicio.png);
-            @include center-repeat-size-height(center, no-repeat, cover, 90vh);
-        
-            .main__container__hero__eslogan {
-                padding-top: 12.5vh;
-                color: map-get($colores, color-blanco);
-        
-                h1 {
-                    font-size: map-get($fuentes, fuente-eslogan-lg); 
-                }
-            }
-        }
+    .carousel-item{
+        height: 90vh;
+        z-index: 1;
 
+        img {
+            height: 100%;
+            object-fit: cover;
+        }
+    }    
+
+    .main__container {
         .main__container__circulo {
             background-color: map-get($colores, color-resalte);
         }
