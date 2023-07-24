@@ -46,6 +46,13 @@ body {
   height: 100%;
   object-fit: cover;
 }
+.main .carousel-caption {
+  top: 5rem;
+  color: white;
+}
+.main .carousel-caption h1 {
+  font-size: 3.5rem;
+}
 .main .main__container .main__container__circulo {
   background-color: #EDED8E;
 }
@@ -74,8 +81,8 @@ body {
   }
 }
 @media (max-width: 768px) {
-  .main .main__container .main__container__hero .main__container__hero__eslogan h1 {
-    font-size: 2.5rem;
+  .main .carousel-caption h1 {
+    font-size: 2.25rem;
   }
   .main .main__container .main__container__buttons h2 {
     font-size: 1rem;
