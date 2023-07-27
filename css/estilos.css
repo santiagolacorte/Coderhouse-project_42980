@@ -115,30 +115,30 @@ body {
   color: #212529;
 }
 
-.main .main__container h1 {
+.main-404 .main-404__container h1 {
   font-size: 6rem;
 }
-.main .main__container h2 {
+.main-404 .main-404__container h2 {
   font-size: 20rem;
 }
-.main .main__container p {
+.main-404 .main-404__container p {
   font-size: 1.5rem;
 }
-.main .main__container img {
+.main-404 .main-404__container img {
   height: 350px;
 }
 
 @media (max-width: 768px) {
-  .main .main__container h1 {
+  .main-404 .main-404__container h1 {
     font-size: 3rem;
   }
-  .main .main__container h2 {
+  .main-404 .main-404__container h2 {
     font-size: 10rem;
   }
-  .main .main__container p {
+  .main-404 .main-404__container p {
     font-size: 1rem;
   }
-  .main .main__container img {
+  .main-404 .main-404__container img {
     height: 180px;
   }
 }

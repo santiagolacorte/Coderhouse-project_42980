@@ -1,5 +1,5 @@
-.main{
-    .main__container{
+.main-404{
+    .main-404__container{
         h1 {
             font-size: map-get($fuentes, fuente-404-lg);          
         }
@@ -19,8 +19,8 @@
 }
 
 @media (max-width: 768px) {
-    .main {
-        .main__container {
+    .main-404 {
+        .main-404__container {
             h1 {
                 font-size: map-get($fuentes, fuente-404-sm);
             }
