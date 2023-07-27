@@ -1,0 +1,41 @@
+.main{
+    .main__container{
+        h1 {
+            font-size: map-get($fuentes, fuente-404-lg);          
+        }
+
+        h2 {
+            font-size: map-get($fuentes, fuente-extralg-lg);
+        }
+
+        p {
+            font-size: map-get($fuentes, fuente-grande);
+        }
+
+        img {
+            height: 350px;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .main {
+        .main__container {
+            h1 {
+                font-size: map-get($fuentes, fuente-404-sm);
+            }
+
+            h2 {
+                font-size: map-get($fuentes, fuente-extralg-sm);
+            }
+
+            p {
+                font-size: map-get($fuentes, fuente-normal);
+            }
+
+            img {
+                height: 180px;
+            }
+        }
+    }
+}
