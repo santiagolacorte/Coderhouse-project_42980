@@ -15,7 +15,7 @@
         top: 5rem;
         color: map-get($colores, color-blanco);
 
-        h1{
+        h1, h2 {
             font-size: map-get($fuentes, fuente-eslogan-lg);
         }
       }
