@@ -1,7 +1,7 @@
 .main {
     .main__container {
         .main__container__hero__reservation {
-            background-image: url(../assets/img/reservation_bg_1024.png);
+            background-image: url(../assets/img/reserva_lg.png);
             @include center-repeat-size-height(center, no-repeat, cover, 70vh);
             opacity: 0.9;
         
@@ -14,6 +14,16 @@
                         color: map-get($colores, color-texto);
                     }
                 }
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .main {
+        .main__container {
+            .main__container__hero__reservation {
+                background-image: url(../assets/img/reserva_sm.png);
             }
         }
     }

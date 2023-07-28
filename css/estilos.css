@@ -81,14 +81,14 @@ body {
   }
 }
 @media (max-width: 768px) {
-  .main .carousel-caption h1 {
+  .main .carousel-caption h1, .main .carousel-caption h2 {
     font-size: 2.25rem;
   }
   .main .main__container .main__container__buttons h2 {
     font-size: 1rem;
   }
   .main .main__container .main__container__buttons a img {
-    height: 105px;
+    height: 120px;
   }
 }
 .main .main__container h1 {
@@ -97,11 +97,11 @@ body {
 
 @media (max-width: 768px) {
   .main .main__container .main__container__menu__section h3 {
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
 }
 .main .main__container .main__container__hero__reservation {
-  background-image: url(../assets/img/reservation_bg_1024.png);
+  background-image: url(../assets/img/reserva_lg.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -115,6 +115,11 @@ body {
   color: #212529;
 }
 
+@media (max-width: 768px) {
+  .main .main__container .main__container__hero__reservation {
+    background-image: url(../assets/img/reserva_sm.png);
+  }
+}
 .main-404 .main-404__container h1 {
   font-size: 6rem;
 }
