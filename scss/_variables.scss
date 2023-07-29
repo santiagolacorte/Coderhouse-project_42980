@@ -1,0 +1,27 @@
+$colores:(
+    color-primario: rgb(211, 211, 211),
+    color-secundario: #82583B,
+    color-resalte: #EDED8E,
+    color-texto: #212529,
+    color-blanco: white,
+);
+
+$espaciados:(
+    espacio-estandar: 10px,
+    espacio-doble: 20px,
+);
+
+$fuentes:(
+    fuente-normal: 1rem,
+    fuente-pequena: 0.8rem,
+    fuente-grande: 1.5rem,
+    fuente-eslogan-lg: 3.5rem,
+    fuente-eslogan-sm: 2.25rem,
+    fuente-titulo-lg: 2.5rem,
+    fuente-extralg-sm: 10rem,
+    fuente-extralg-lg: 20rem,
+    fuente-404-sm: 3rem,
+    fuente-404-lg: 6rem,
+);
+
+$tipografia-general: 'Poppins', sans-serif;

@@ -1,0 +1,12 @@
+@mixin reseteos($margin, $padding, $box-sizing){
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@mixin center-repeat-size-height($bg-position, $bg-repeat, $bg-size, $height){
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+}

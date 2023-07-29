@@ -1,0 +1,10 @@
+@import 'mixins.scss';
+
+* {
+    @include reseteos(0, 0, border-box)
+}
+
+body {
+    background-color: map-get($colores, color-primario);
+    font-family: $tipografia-general;
+}

@@ -1,0 +1,97 @@
+@import 'mixins.scss';
+
+.main {
+    .carousel-item{
+        height: 90vh;
+        z-index: 1;
+
+        img {
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    
+    .carousel-caption {
+        top: 5rem;
+        color: map-get($colores, color-blanco);
+
+        h1, h2 {
+            font-size: map-get($fuentes, fuente-eslogan-lg);
+        }
+      }
+
+    .main__container {
+        .main__container__circulo {
+            background-color: map-get($colores, color-resalte);
+        }
+
+        .main__container__buttons {
+            h2 {
+                font-size: map-get($fuentes, fuente-grande);
+            }
+        
+            a {
+                img {
+                    transition: transform 0.3s;
+                    &:hover {
+                        transform: scale(1.2);
+                    }
+                }
+            }
+        }
+
+        .main__container__description {
+            .main__container__description__eslogan {
+                padding-left: 10vw;
+            }
+        }
+    
+        .main__container__bg {
+            background-color: rgb(200, 200, 200);
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+    .main {
+        .main__container {
+            .main__container__buttons {
+                a {
+                    img {
+                        height: 150px;
+                    }
+                }
+            }
+        
+            .main__container__description {
+                .main__container__description__eslogan {
+                    padding-left: 20vw;
+                  }
+            }
+        }
+    }   
+}
+
+@media (max-width: 768px) {
+    .main {
+        .carousel-caption {
+            h1, h2{
+                font-size: map-get($fuentes, fuente-eslogan-sm);
+            }
+          }
+
+        .main__container {
+            .main__container__buttons {
+                h2 {
+                    font-size: map-get($fuentes, fuente-normal);
+                }
+        
+                a {
+                    img {
+                        height: 120px;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,19 @@
+.main {
+    .main__container {
+        h1 {
+            font-size: map-get($fuentes, fuente-titulo-lg);
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .main {
+        .main__container {
+            .main__container__menu__section {
+                h3 {
+                    font-size: map-get($fuentes, fuente-grande);
+                }
+            }
+        }
+    }
+}

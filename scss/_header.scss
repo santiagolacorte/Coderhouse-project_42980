@@ -1,0 +1,17 @@
+.header {
+    .header__nav {
+        background-color: map-get($colores, color-secundario);
+    }
+}
+
+@media (max-width: 768px) {
+    .header {
+        .header__nav__container {
+            a {
+                img {
+                    height: 65px;
+                }
+            }
+        }
+    }
+}
