@@ -15,6 +15,11 @@
         img {
             height: 350px;
         }
+
+        .btn-primary {
+            background-color: map-get($colores, color-resalte);
+            border-color: map-get($colores, color-resalte);
+        }
     }
 }
 

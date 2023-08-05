@@ -137,6 +137,10 @@ body {
 .main-404 .main-404__container img {
   height: 350px;
 }
+.main-404 .main-404__container .btn-primary {
+  background-color: #EDED8E;
+  border-color: #EDED8E;
+}
 
 @media (max-width: 768px) {
   .main-404 .main-404__container h1 {
