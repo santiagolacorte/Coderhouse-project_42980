@@ -120,6 +120,11 @@ body {
     background-image: url(../assets/img/reserva_sm.png);
   }
 }
+.main .main__container .btn-primary {
+  background-color: #EDED8E;
+  border-color: #EDED8E;
+}
+
 .main-404 .main-404__container h1 {
   font-size: 6rem;
 }

@@ -1,0 +1,8 @@
+.main {
+    .main__container {
+        .btn-primary {
+            background-color: map-get($colores, color-resalte);
+            border-color: map-get($colores, color-resalte);
+        }
+    }
+}
