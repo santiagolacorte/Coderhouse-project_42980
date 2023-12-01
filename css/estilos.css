@@ -1,180 +1,129 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-}
+  box-sizing: border-box; }
 
 body {
-  background-color: rgb(211, 211, 211);
-  font-family: "Poppins", sans-serif;
-}
+  background-color: lightgray;
+  font-family: "Poppins", sans-serif; }
 
 .stickyWhatsapp {
   bottom: 6vh;
   right: 4vw;
-  background-color: rgb(211, 211, 211);
+  background-color: lightgray;
   height: 100px;
   width: 100px;
   font-size: 70px;
-  z-index: 10;
-}
-.stickyWhatsapp a {
-  color: #02C408;
-}
+  z-index: 10; }
+  .stickyWhatsapp a {
+    color: #02C408; }
 
 @media (max-width: 768px) {
   .stickyWhatsapp {
     height: 70px;
     width: 70px;
-    font-size: 45px;
-  }
-}
+    font-size: 45px; } }
 .header .header__nav {
-  background-color: #82583B;
-}
+  background-color: #82583B; }
 
 @media (max-width: 768px) {
   .header .header__nav__container a img {
-    height: 65px;
-  }
-}
+    height: 65px; } }
 .main .carousel-item {
   height: 90vh;
-  z-index: 1;
-}
-.main .carousel-item img {
-  height: 100%;
-  object-fit: cover;
-}
+  z-index: 1; }
+  .main .carousel-item img {
+    height: 100%;
+    object-fit: cover; }
 .main .carousel-caption {
   top: 5rem;
-  color: white;
-}
-.main .carousel-caption h1, .main .carousel-caption h2 {
-  font-size: 3.5rem;
-}
+  color: white; }
+  .main .carousel-caption h1, .main .carousel-caption h2 {
+    font-size: 3.5rem; }
 .main .main__container .main__container__circulo {
-  background-color: #EDED8E;
-}
+  background-color: #EDED8E; }
 .main .main__container .main__container__buttons h2 {
-  font-size: 1.5rem;
-}
+  font-size: 1.5rem; }
 .main .main__container .main__container__buttons a img {
-  transition: transform 0.3s;
-}
-.main .main__container .main__container__buttons a img:hover {
-  transform: scale(1.2);
-}
+  transition: transform 0.3s; }
+  .main .main__container .main__container__buttons a img:hover {
+    transform: scale(1.2); }
 .main .main__container .main__container__description .main__container__description__eslogan {
-  padding-left: 10vw;
-}
+  padding-left: 10vw; }
 .main .main__container .main__container__bg {
-  background-color: rgb(200, 200, 200);
-}
+  background-color: #c8c8c8; }
 
 @media (max-width: 1200px) {
   .main .main__container .main__container__buttons a img {
-    height: 150px;
-  }
+    height: 150px; }
   .main .main__container .main__container__description .main__container__description__eslogan {
-    padding-left: 20vw;
-  }
-}
+    padding-left: 20vw; } }
 @media (max-width: 768px) {
   .main .carousel-caption h1, .main .carousel-caption h2 {
-    font-size: 2.25rem;
-  }
+    font-size: 2.25rem; }
   .main .main__container .main__container__buttons h2 {
-    font-size: 1rem;
-  }
+    font-size: 1rem; }
   .main .main__container .main__container__buttons a img {
-    height: 120px;
-  }
-}
+    height: 120px; } }
 .main .main__container h1 {
-  font-size: 2.5rem;
-}
+  font-size: 2.5rem; }
 
 @media (max-width: 768px) {
   .main .main__container .main__container__menu__section h3 {
-    font-size: 1.5rem;
-  }
-}
+    font-size: 1.5rem; } }
 .main .main__container .main__container__hero__reservation {
   background-image: url(../assets/img/reserva_lg.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 90vh;
-  opacity: 0.9;
-}
-.main .main__container .main__container__hero__reservation .main__container__hero__reservation__bg {
-  background-color: #EDED8E;
-}
-.main .main__container .main__container__hero__reservation .main__container__hero__reservation__bg .main__container__hero__reservation__bg__section a {
-  color: #212529;
-}
+  opacity: 0.9; }
+  .main .main__container .main__container__hero__reservation .main__container__hero__reservation__bg {
+    background-color: #EDED8E; }
+    .main .main__container .main__container__hero__reservation .main__container__hero__reservation__bg .main__container__hero__reservation__bg__section a {
+      color: #212529; }
 
 @media (max-width: 768px) {
   .main .main__container .main__container__hero__reservation {
-    background-image: url(../assets/img/reserva_sm.png);
-  }
-}
+    background-image: url(../assets/img/reserva_sm.png); } }
 .main .main__container .btn-primary {
   background-color: #EDED8E;
-  border-color: #EDED8E;
-}
+  border-color: #EDED8E; }
 
 .main-404 .main-404__container h1 {
-  font-size: 6rem;
-}
+  font-size: 6rem; }
 .main-404 .main-404__container h2 {
-  font-size: 20rem;
-}
+  font-size: 20rem; }
 .main-404 .main-404__container p {
-  font-size: 1.5rem;
-}
+  font-size: 1.5rem; }
 .main-404 .main-404__container img {
-  height: 350px;
-}
+  height: 350px; }
 .main-404 .main-404__container .btn-primary {
   background-color: #EDED8E;
-  border-color: #EDED8E;
-}
+  border-color: #EDED8E; }
 
 @media (max-width: 768px) {
   .main-404 .main-404__container h1 {
-    font-size: 3rem;
-  }
+    font-size: 3rem; }
   .main-404 .main-404__container h2 {
-    font-size: 10rem;
-  }
+    font-size: 10rem; }
   .main-404 .main-404__container p {
-    font-size: 1rem;
-  }
+    font-size: 1rem; }
   .main-404 .main-404__container img {
-    height: 180px;
-  }
-}
+    height: 180px; } }
 .footer .footer__container {
-  background-color: #82583B;
-}
-.footer .footer__container .footer__container__items__description p {
-  color: #FDD6BD;
-}
-.footer .footer__container .footer__container__items__socials a {
-  color: #FDD6BD;
-  font-size: 1.5rem;
-  margin-left: 1rem;
-}
+  background-color: #82583B; }
+  .footer .footer__container .footer__container__items__description p {
+    color: #FDD6BD; }
+  .footer .footer__container .footer__container__items__socials a {
+    color: #FDD6BD;
+    font-size: 1.5rem;
+    margin-left: 1rem; }
 
 @media (max-width: 1200px) {
   .footer .footer__container a img {
-    height: 150px;
-  }
+    height: 150px; }
   .footer .footer__container .footer__container__items__description p {
-    font-size: 0.8rem;
-  }
-}
+    font-size: 0.8rem; } }
 
 /*# sourceMappingURL=estilos.css.map */
